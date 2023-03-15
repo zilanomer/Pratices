@@ -6,10 +6,9 @@ using System.Threading.Tasks;
 
 namespace Oop2
 {
-    public class GercekMusteri
+    public class Individual:Customer
     {
-        public int Id { get; set; }
-        public string CustomNumber { get; set; }
+       
         public string TcNo { get; set; }
         public string Name { get; set; }
         public string SurName { get; set; }

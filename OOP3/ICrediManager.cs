@@ -4,15 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Oop2
-{   //Business Classes 
-    public class CustomerManager
+namespace OOP3
+{
+ public   interface  ICrediManager
     {
 
-        public void Add(Customer customer)
-        {
+         void Hesapla();
 
-
-        }
+        void BiseyYap();
+        
     }
 }

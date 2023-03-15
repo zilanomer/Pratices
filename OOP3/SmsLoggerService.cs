@@ -4,15 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Oop2
-{   //Business Classes 
-    public class CustomerManager
+namespace OOP3
+{
+    public class SmsLoggerService : ILoggerService
     {
-
-        public void Add(Customer customer)
+        public void Log()
         {
-
-
+            Console.WriteLine("Sms ile loglandı.");
         }
     }
 }
